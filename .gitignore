@@ -1,0 +1,71 @@
+# Data Files - Large datasets not needed in Git
+*.csv
+*.parquet
+*.parquet/
+output.parquet/
+cleaned_youtube_trending_data.parquet/
+dataset.csv
+
+# Temporary Files
+~$*
+*.tmp
+*.temp
+*~
+.DS_Store
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Spark Temporary Files
+_temporary/
+*.crc
+*.part
+_SUCCESS
+
+# Environment Files
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Compiled files
+*.pyc
+*.pyo
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Keep these important files:
+# !README.md
+# !BLOG_POST.md
+# !eda_analysis.ipynb
+# !images/
+# !.gitignore
+
