@@ -1,0 +1,25 @@
+# YouTube Viral Intelligence API - Backend Dependencies
+# Install with: pip install -r requirements.txt
+# Python 3.12+ recommended
+
+# Web Framework & API
+fastapi>=0.124.0,<0.125.0
+uvicorn[standard]>=0.38.0,<0.39.0
+pydantic>=2.12.0,<3.0.0
+python-multipart>=0.0.6
+
+# ML Dependencies
+xgboost>=3.1.0,<4.0.0
+scikit-learn>=1.8.0,<2.0.0
+joblib>=1.5.0,<2.0.0
+numpy>=2.3.0,<3.0.0
+
+# Note: These versions match the tested environment
+# For production, you may want to pin exact versions:
+# fastapi==0.124.4
+# uvicorn[standard]==0.38.0
+# pydantic==2.12.5
+# xgboost==3.1.2
+# scikit-learn==1.8.0
+# joblib==1.5.3
+# numpy==2.3.5
