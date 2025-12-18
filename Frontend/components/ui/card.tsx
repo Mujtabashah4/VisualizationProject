@@ -1,7 +1,6 @@
 import * as React from 'react'
 
-// Use relative import instead of alias to avoid issues on Vercel
-import { cn } from '../../lib/utils'
+import { cn } from './utils'
 
 const Card = React.forwardRef<
   HTMLDivElement,
